@@ -34,6 +34,6 @@ tl.from( ".card-bg", { delay: 0.4, scale: .2, transformOrigin: 'center' }, "=.2"
   .from(  ".blip4", { scale: 0 }, "-=.5" )
   .from( ".blip5", { scale: 0 }, "-=.7" );
 
-tl2.to(".whole-card", { y: 10, repeat: -1, yoyo:true });
+tl2.to(".whole-card", { scale: 1.025, x: -13, repeat: -1, yoyo:true });
 
 tl3.from(".anime", { opacity: 0, y: -20, stagger: 1 });
